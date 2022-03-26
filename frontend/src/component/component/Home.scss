@@ -1,0 +1,20 @@
+.home {
+  display: grid;
+  place-items: center;
+  background-image: url("");
+  margin-top: 15%;
+  button {
+    padding: 70px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    transition: all 0.7s;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.767);
+    }
+    &:focus {
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.bt2 {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 200px;
+  &:hover {
+    color: white;
+    background-color: black;
+  }
+}

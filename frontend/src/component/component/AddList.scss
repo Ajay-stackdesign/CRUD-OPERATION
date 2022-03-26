@@ -1,0 +1,17 @@
+.addList {
+  margin-top: 10px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.8s;
+  &:hover {
+    background-color: lightgreen;
+  }
+  .link {
+    text-decoration: none;
+    color: red;
+    &:hover {
+      color: white;
+    }
+  }
+}
